@@ -20,9 +20,14 @@
         &:hover {
             animation: borderHover 4s forwards;
         }
+
+        h1 {
+            text-align: center;
+        }
         
         @media only screen and (max-width: 776px) {
             width: 90%;
+            align-items: center;
         }
 
         .form-box {
