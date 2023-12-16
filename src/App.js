@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import WelcomePage from './pages/WelcomePage';
 import ScoreboardScreen from './pages/ScoreboardScreen';
+
 
 function App() {
   return (
@@ -13,5 +14,4 @@ function App() {
     </Router>
   );
 }
-
-export default App;
+ export default App;
