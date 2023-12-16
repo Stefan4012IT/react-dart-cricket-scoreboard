@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-dart-cricket-scoreboard/static/css/main.8305e6ab.css",
+    "main.css": "/react-dart-cricket-scoreboard/static/css/main.b4fdae02.css",
     "main.js": "/react-dart-cricket-scoreboard/static/js/main.0c5b8149.js",
     "index.html": "/react-dart-cricket-scoreboard/index.html",
-    "main.8305e6ab.css.map": "/react-dart-cricket-scoreboard/static/css/main.8305e6ab.css.map",
+    "main.b4fdae02.css.map": "/react-dart-cricket-scoreboard/static/css/main.b4fdae02.css.map",
     "main.0c5b8149.js.map": "/react-dart-cricket-scoreboard/static/js/main.0c5b8149.js.map"
   },
   "entrypoints": [
-    "static/css/main.8305e6ab.css",
+    "static/css/main.b4fdae02.css",
     "static/js/main.0c5b8149.js"
   ]
 }
