@@ -1,0 +1,107 @@
+.welcome-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: #111212;
+    .form-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 900px;
+        height: 500px;
+        
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 1px solid transparent;
+
+        &:hover {
+            animation: borderHover 4s forwards;
+        }
+        
+        @media only screen and (max-width: 776px) {
+            width: 90%;
+        }
+
+        .form-box {
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            input[type=number] {
+                width: 50px;
+                height: 30px;
+                font-size: 20px;
+                border-radius: 10px;
+                text-align: center;
+
+                &:focus {
+                    outline: none;
+                    border-color: #D8E0E6; 
+                    box-shadow: none;
+                }
+            }
+
+
+            .btn-play {
+                font-size: 24px;
+                font-weight: 600;
+                width: 100px;
+                height: 40px;
+                border: 1px solid transparent;
+                background-color: #1C2E39;
+                opacity: 1;
+                padding: 5px;
+                border-radius: 6px;
+                transition: all .3s;
+                color: #D8E0E6;
+                border: 1px solid transparent;
+                cursor: pointer;
+
+                &:hover {
+                    animation: btnBorderHover 1s forwards;
+                }
+            }
+        }
+    }
+
+}
+
+
+@keyframes borderHover {
+    0% {
+        border-left-color: #e31b23;
+    }
+
+    25% {
+        border-top-color: #e31b23;
+    }
+
+    50% {
+        border-right-color: #e31b23;
+    }
+
+    75% {
+        border-bottom-color: #e31b23;
+    }
+
+    100% {
+        border-color: #e31b23;
+        box-shadow: 2px 2px 50px #1C2E39;
+    }
+}
+
+@keyframes btnBorderHover {
+    from {
+        border-color: transparent;
+        box-shadow: none;
+    }
+
+    to {
+        box-shadow: 2px 2px 15px #1C2E39;
+    }
+}

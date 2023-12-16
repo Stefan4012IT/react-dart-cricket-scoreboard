@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    background-color: #111212;
+    color: #D8E0E6;
+}
